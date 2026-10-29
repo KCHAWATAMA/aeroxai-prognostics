@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data and models live in Cloud Storage, never in git
+data/
+artifacts/
+mlruns/
+*.keras
+*.pt
+*.joblib
+
+# Web
+node_modules/
+.next/
+out/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*-key.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
