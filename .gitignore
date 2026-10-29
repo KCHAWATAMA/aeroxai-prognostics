@@ -33,3 +33,6 @@ out/
 Thumbs.db
 .idea/
 .vscode/
+
+# Local planning documents
+*.pdf
